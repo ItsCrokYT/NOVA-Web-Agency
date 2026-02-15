@@ -1,0 +1,37 @@
+@import url('[https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Space+Grotesk:wght@500;700&display=swap](https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Space+Grotesk:wght@500;700&display=swap)');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-nova-bg text-white font-sans antialiased overflow-x-hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* Scrollbar personalizada futurista */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-nova-bg;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-nova-primary/50 rounded-full hover:bg-nova-cyan transition-colors;
+}
+
+/* Utilidad para textos con gradiente */
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-nova-cyan via-nova-primary to-nova-magenta;
+}
+
+html {
+  scroll-behavior: smooth;
+}

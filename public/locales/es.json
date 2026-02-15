@@ -1,0 +1,145 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "portfolio": "Proyectos",
+    "services": "Servicios",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "client_area": "Acceso Cliente",
+    "dashboard": "Panel",
+    "go_to_dashboard": "Ir al Panel"
+  },
+  "auth": {
+    "welcome_title": "Bienvenido",
+    "welcome_subtitle": "Accede a tu panel de cliente NOVA.",
+    "create_account_title": "Crear Cuenta",
+    "create_account_subtitle": "Únete a NOVA para iniciar tu proyecto.",
+    "method_email": "Email",
+    "method_phone": "Teléfono",
+    "email_label": "Correo Electrónico",
+    "password_label": "Contraseña",
+    "phone_label": "Número Móvil",
+    "phone_placeholder": "+52 123...",
+    "phone_help": "Incluye el código de país (ej: +34, +52).",
+    "send_code": "Enviar Código",
+    "sending": "Enviando...",
+    "verify": "Verificar",
+    "verifying": "Verificando...",
+    "code_sent_to": "Código enviado a",
+    "change_number": "Cambiar número",
+    "code_label": "Código de 6 dígitos",
+    "login_btn": "Iniciar Sesión",
+    "signup_btn": "Crear mi Cuenta",
+    "processing": "Procesando...",
+    "or_continue": "O continúa con",
+    "already_account": "¿Ya tienes una cuenta?",
+    "no_account": "¿Aún no tienes cuenta?",
+    "login_action": "Inicia Sesión",
+    "register_free": "Regístrate Gratis",
+    "errors": {
+      "google": "Error al conectar con Google.",
+      "generic": "Ocurrió un error.",
+      "credentials": "Correo o contraseña incorrectos.",
+      "email_exists": "Este correo ya está registrado.",
+      "weak_password": "La contraseña debe tener al menos 6 caracteres.",
+      "sms": "Error enviando SMS. Verifica el número.",
+      "invalid_code": "Código inválido."
+    }
+  },
+  "client_dashboard": {
+    "hello": "Hola",
+    "welcome_msg": "Bienvenido a tu espacio en NOVA.",
+    "logout": "Cerrar Sesión",
+    "my_projects": "Mis Proyectos",
+    "no_projects": "No tienes pedidos activos actualmente.",
+    "generate_test": "Generar Pedido de Prueba",
+    "test_note": "(Esto creará la colección 'orders' en tu base de datos automáticamente)",
+    "support_title": "Soporte Directo",
+    "start_chat": "Inicia una conversación con tu desarrollador.",
+    "type_message": "Escribe un mensaje...",
+    "project_default_title": "Mi Primer Proyecto Web",
+    "start_date": "Inicio",
+    "deadline": "Entrega",
+    "status": {
+      "pending": "Pendiente",
+      "in_progress": "En Progreso",
+      "review": "Revisión",
+      "completed": "Completado"
+    }
+  },
+  "hero": {
+    "badge": "Agencia de Desarrollo Web",
+    "title_line1": "Construimos",
+    "title_line2": "Universos Digitales",
+    "subtitle": "Transformamos ideas complejas en experiencias web inmersivas de alto impacto. Especialistas en React y 3D.",
+    "cta_primary": "Iniciar Proyecto",
+    "cta_secondary": "Ver Portafolio"
+  },
+  "about": {
+    "badge": "Stack Tecnológico",
+    "title_line1": "Ingeniería Digital",
+    "title_highlight": "de Alta Precisión",
+    "description": "No usamos plantillas prefabricadas. Diseñamos arquitectura web a medida utilizando el stack más potente del mercado para garantizar velocidad, seguridad y escalabilidad.",
+    "tech": {
+      "react": { "title": "React & Next.js", "desc": "Interfaces reactivas modernas, SPA y aplicaciones de alto rendimiento." },
+      "three": { "title": "Three.js & WebGL", "desc": "Experiencias 3D inmersivas que diferencian tu marca del resto." },
+      "tailwind": { "title": "Tailwind CSS", "desc": "Sistemas de diseño atómicos, adaptables y estéticamente perfectos." },
+      "node": { "title": "Node.js & Cloud", "desc": "Infraestructura backend robusta capaz de escalar globalmente." }
+    },
+    "services": {
+      "title": "Soluciones Web Integrales",
+      "desc": "Desde landing pages de alto impacto hasta aplicaciones web complejas (SaaS). Cubrimos todo el espectro digital.",
+      "list": {
+        "1": "Sitios Corporativos",
+        "2": "E-Commerce Avanzado",
+        "3": "Landing Pages",
+        "4": "Aplicaciones Web (SaaS)"
+      }
+    }
+  },
+  "portfolio": {
+    "badge": "Trabajos Seleccionados",
+    "title": "Proyectos Destacados",
+    "subtitle": "Una colección de aplicaciones web de alto rendimiento creadas con precisión y tecnologías modernas.",
+    "projects": {
+      "ecommerce": { "title": "Neon E-Commerce", "desc": "Plataforma de compras full-stack con inventario en tiempo real e integración con Stripe." },
+      "dashboard": { "title": "FinTech Dashboard", "desc": "Panel de análisis para visualización de datos bancarios usando D3.js y Firebase." },
+      "realestate": { "title": "Luxury Estates", "desc": "Experiencia inmersiva de visualización de propiedades con recorridos 3D." },
+      "saas": { "title": "TaskMaster SaaS", "desc": "Herramienta de productividad para equipos remotos con colaboración en vivo." },
+      "healthcare": { "title": "MediCare Portal", "desc": "Portal seguro para pacientes con funciones de telemedicina." },
+      "nft": { "title": "Cosmos NFT Market", "desc": "Mercado Web3 para el comercio de arte digital en la red Ethereum." }
+    }
+  },
+  "pricing": {
+    "badge": "Servicios",
+    "title_line1": "Soluciones a Medida.",
+    "title_highlight": "Resultados Reales.",
+    "subtitle": "Selecciona el tipo de proyecto que necesitas. Evaluaremos tus requerimientos exactos para entregarte una cotización personalizada y precisa.",
+    "investment": "Inversión",
+    "custom_quote": "Por Cotización",
+    "selected_badge": "Seleccionado",
+    "select_plan": "Seleccionar",
+    "cta": "Solicitar Presupuesto",
+    "plans": {
+      "basic": { "name": "Landing Page", "desc": "Perfecta para validar ideas, captar leads o promocionar un producto único.", "features": { "1": "Diseño UX/UI Personalizado", "2": "Alta conversión (Optimizado para Ventas)", "3": "Integración con Email/CRM", "4": "Diseño 100% Responsivo", "5": "Velocidad de carga extrema" } },
+      "pro": { "name": "Sitio Corporativo", "desc": "La presencia digital definitiva para empresas que buscan autoridad y confianza.", "features": { "1": "Múltiples páginas (Inicio, Nosotros, Servicios...)", "2": "Animaciones avanzadas y Micro-interacciones", "3": "Panel Autoadministrable (CMS)", "4": "Optimización SEO On-Page", "5": "Soporte técnico y mantenimiento inicial" } },
+      "ecommerce": { "name": "E-Commerce / App", "desc": "Sistemas complejos, tiendas online a medida o plataformas SaaS escalables.", "features": { "1": "Desarrollo Full-Stack a medida", "2": "Pasarelas de Pago (Stripe/PayPal)", "3": "Bases de Datos y Paneles de Control", "4": "Arquitectura de alta seguridad", "5": "Experiencias 3D interactivas (Three.js)" } }
+    }
+  },
+  "contact": {
+    "badge": "Hablemos",
+    "title_line1": "Iniciemos tu",
+    "title_highlight": "Próximo Proyecto.",
+    "subtitle": "Completa el formulario o escríbenos directamente. Analizaremos tu solicitud y te responderemos en menos de 24 horas.",
+    "location_label": "UBICACIÓN",
+    "form_title": "Cuéntanos sobre tu idea",
+    "form": { "name": "Nombre Completo", "email": "Correo Electrónico", "service": "Servicio de Interés", "service_placeholder": "Selecciona una opción...", "message": "Detalles del Proyecto", "message_placeholder": "¿Qué tienes en mente? Presupuesto estimado, tiempos, referencias...", "send": "Enviar Mensaje", "sending": "Enviando...", "sent": "Mensaje Enviado!" }
+  },
+  "footer": {
+    "newsletter": { "title": "Mantente en la vanguardia.", "desc": "Únete a nuestro boletín para recibir insights exclusivos sobre desarrollo web, diseño 3D y tecnología.", "placeholder": "tu@email.com", "button": "Suscribirse" },
+    "brand_desc": "Agencia de desarrollo web premium especializada en experiencias digitales inmersivas de alto rendimiento.",
+    "links": { "company": { "title": "Empresa" }, "legal": { "title": "Legal", "privacy": "Política de Privacidad", "terms": "Términos de Servicio", "cookies": "Política de Cookies" }, "socials": { "title": "Conecta" } },
+    "rights": "Todos los derechos reservados.",
+    "back_to_top": "Volver Arriba"
+  }
+}

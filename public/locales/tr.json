@@ -1,0 +1,145 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "portfolio": "Çalışmalar",
+    "services": "Hizmetler",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "client_area": "Müşteri Girişi",
+    "dashboard": "Panel",
+    "go_to_dashboard": "Panele Git"
+  },
+  "auth": {
+    "welcome_title": "Hoşgeldiniz",
+    "welcome_subtitle": "NOVA müşteri panelinize erişin.",
+    "create_account_title": "Hesap Oluştur",
+    "create_account_subtitle": "Projenize başlamak için NOVA'ya katılın.",
+    "method_email": "E-posta",
+    "method_phone": "Telefon",
+    "email_label": "E-posta Adresi",
+    "password_label": "Şifre",
+    "phone_label": "Cep Telefonu",
+    "phone_placeholder": "+90 532...",
+    "phone_help": "Ülke kodunu ekleyin (örn: +90).",
+    "send_code": "Kod Gönder",
+    "sending": "Gönderiliyor...",
+    "verify": "Doğrula",
+    "verifying": "Doğrulanıyor...",
+    "code_sent_to": "Kod şuraya gönderildi:",
+    "change_number": "Numarayı değiştir",
+    "code_label": "6 haneli Kod",
+    "login_btn": "Giriş Yap",
+    "signup_btn": "Hesabımı Oluştur",
+    "processing": "İşleniyor...",
+    "or_continue": "Veya şununla devam et",
+    "already_account": "Zaten hesabınız var mı?",
+    "no_account": "Henüz hesabınız yok mu?",
+    "login_action": "Giriş Yap",
+    "register_free": "Ücretsiz Kaydol",
+    "errors": {
+      "google": "Google ile bağlanırken hata.",
+      "generic": "Bir hata oluştu.",
+      "credentials": "E-posta veya şifre hatalı.",
+      "email_exists": "Bu e-posta zaten kayıtlı.",
+      "weak_password": "Şifre en az 6 karakter olmalıdır.",
+      "sms": "SMS gönderme hatası. Numarayı kontrol edin.",
+      "invalid_code": "Geçersiz kod."
+    }
+  },
+  "client_dashboard": {
+    "hello": "Merhaba",
+    "welcome_msg": "NOVA alanınıza hoş geldiniz.",
+    "logout": "Çıkış Yap",
+    "my_projects": "Projelerim",
+    "no_projects": "Şu anda aktif siparişiniz yok.",
+    "generate_test": "Test Siparişi Oluştur",
+    "test_note": "(Bu, veritabanınızda 'orders' koleksiyonunu otomatik olarak oluşturacaktır)",
+    "support_title": "Doğrudan Destek",
+    "start_chat": "Geliştiricinizle bir görüşme başlatın.",
+    "type_message": "Bir mesaj yazın...",
+    "project_default_title": "İlk Web Projem",
+    "start_date": "Başlangıç",
+    "deadline": "Teslim",
+    "status": {
+      "pending": "Beklemede",
+      "in_progress": "Devam Ediyor",
+      "review": "İnceleme",
+      "completed": "Tamamlandı"
+    }
+  },
+  "hero": {
+    "badge": "Web Geliştirme Ajansı",
+    "title_line1": "İnşa Ediyoruz",
+    "title_line2": "Dijital Evrenler",
+    "subtitle": "Karmaşık fikirleri yüksek etkili, sürükleyici web deneyimlerine dönüştürüyoruz. React ve 3D uzmanları.",
+    "cta_primary": "Projeyi Başlat",
+    "cta_secondary": "Portföyü Gör"
+  },
+  "about": {
+    "badge": "Teknoloji Yığını",
+    "title_line1": "Yüksek Hassasiyetli",
+    "title_highlight": "Dijital Mühendislik",
+    "description": "Hazır şablonlar kullanmıyoruz. Hız, güvenlik ve ölçeklenebilirliği garanti etmek için piyasadaki en güçlü yığını kullanarak özel web mimarisi tasarlıyoruz.",
+    "tech": {
+      "react": { "title": "React & Next.js", "desc": "Modern reaktif arayüzler, SPA ve yüksek performanslı uygulamalar." },
+      "three": { "title": "Three.js & WebGL", "desc": "Markanızı diğerlerinden ayıran sürükleyici 3D deneyimler." },
+      "tailwind": { "title": "Tailwind CSS", "desc": "Atomik tasarım sistemleri, tamamen duyarlı ve estetik açıdan mükemmel." },
+      "node": { "title": "Node.js & Cloud", "desc": "Küresel ölçekte büyüyebilen sağlam arka uç altyapısı." }
+    },
+    "services": {
+      "title": "Kapsamlı Web Çözümleri",
+      "desc": "Yüksek etkili açılış sayfalarından karmaşık web uygulamalarına (SaaS) kadar. Tüm dijital spektrumu kapsıyoruz.",
+      "list": {
+        "1": "Kurumsal Siteler",
+        "2": "Gelişmiş E-Ticaret",
+        "3": "Açılış Sayfaları (Landing Pages)",
+        "4": "Web Uygulamaları (SaaS)"
+      }
+    }
+  },
+  "portfolio": {
+    "badge": "Seçilmiş İşler",
+    "title": "Öne Çıkan Projeler",
+    "subtitle": "Hassasiyet ve modern teknolojilerle hazırlanmış yüksek performanslı web uygulamaları koleksiyonu.",
+    "projects": {
+      "ecommerce": { "title": "Neon E-Ticaret", "desc": "Gerçek zamanlı envanter ve Stripe entegrasyonuna sahip tam kapsamlı bir alışveriş platformu." },
+      "dashboard": { "title": "FinTech Paneli", "desc": "D3.js ve Firebase kullanan bankacılık veri görselleştirmesi için analiz paneli." },
+      "realestate": { "title": "Lüks Emlak", "desc": "3D turlar ve harita entegrasyonu ile sürükleyici mülk görüntüleme deneyimi." },
+      "saas": { "title": "TaskMaster SaaS", "desc": "Canlı işbirliği ve Kanban panoları içeren uzak ekipler için üretkenlik aracı." },
+      "healthcare": { "title": "MediCare Portalı", "desc": "Sağlık standartlarına ve teletıp özelliklerine uygun güvenli hasta portalı." },
+      "nft": { "title": "Cosmos NFT Pazarı", "desc": "Ethereum ağında dijital sanat ticareti için Web3 pazaryeri." }
+    }
+  },
+  "pricing": {
+    "badge": "Hizmetler",
+    "title_line1": "Özel Çözümler.",
+    "title_highlight": "Gerçek Sonuçlar.",
+    "subtitle": "İhtiyacınız olan proje türünü seçin. Size kesin ve özel bir teklif sunmak için tam gereksinimlerinizi değerlendireceğiz.",
+    "investment": "Yatırım",
+    "custom_quote": "Özel Teklif",
+    "selected_badge": "Seçildi",
+    "select_plan": "Seç",
+    "cta": "Fiyat Teklifi İste",
+    "plans": {
+      "basic": { "name": "Açılış Sayfası", "desc": "Fikirleri doğrulamak, potansiyel müşteri bulmak veya tek bir ürünü tanıtmak için mükemmel.", "features": { "1": "Özel UX/UI Tasarımı", "2": "Yüksek Dönüşüm (Satış Odaklı)", "3": "E-posta/CRM Entegrasyonu", "4": "%100 Duyarlı Tasarım", "5": "Yüksek yükleme hızları" } },
+      "pro": { "name": "Kurumsal Site", "desc": "Otorite ve güven arayan şirketler için nihai dijital varlık.", "features": { "1": "Çoklu sayfa (Ana Sayfa, Hakkımızda...)", "2": "Gelişmiş animasyonlar ve mikro etkileşimler", "3": "Yönetilebilir Admin Paneli (CMS)", "4": "Sayfa İçi SEO Optimizasyonu", "5": "Teknik destek ve ilk bakım" } },
+      "ecommerce": { "name": "E-Ticaret / Uygulama", "desc": "Karmaşık sistemler, özel çevrimiçi mağazalar veya ölçeklenebilir SaaS platformları.", "features": { "1": "Özel Full-Stack Geliştirme", "2": "Ödeme Geçitleri (Stripe/PayPal)", "3": "Veritabanları ve Paneller", "4": "Yüksek güvenlikli mimari", "5": "Etkileşimli 3D Deneyimler (Three.js)" } }
+    }
+  },
+  "contact": {
+    "badge": "Hadi Konuşalım",
+    "title_line1": "Bir Sonraki",
+    "title_highlight": "Projenize Başlayalım.",
+    "subtitle": "Formu doldurun veya doğrudan bize e-posta gönderin. İsteğinizi inceleyip 24 saat içinde size döneceğiz.",
+    "location_label": "KONUM",
+    "form_title": "Bize fikrinizden bahsedin",
+    "form": { "name": "Ad Soyad", "email": "E-posta Adresi", "service": "İlgilendiğiniz Hizmet", "service_placeholder": "Bir seçenek belirleyin...", "message": "Proje Detayları", "message_placeholder": "Aklınızda ne var? Tahmini bütçe, zaman çizelgesi, referanslar...", "send": "Mesaj Gönder", "sending": "Gönderiliyor...", "sent": "Mesaj Gönderildi!" }
+  },
+  "footer": {
+    "newsletter": { "title": "Gelişmelerden haberdar olun.", "desc": "Web geliştirme, 3D tasarım ve teknoloji hakkında özel bilgiler almak için bültenimize katılın.", "placeholder": "siz@eposta.com", "button": "Abone Ol" },
+    "brand_desc": "Yüksek performanslı, sürükleyici dijital deneyimler konusunda uzmanlaşmış premium web geliştirme ajansı.",
+    "links": { "company": { "title": "Şirket" }, "legal": { "title": "Yasal", "privacy": "Gizlilik Politikası", "terms": "Hizmet Şartları", "cookies": "Çerez Politikası" }, "socials": { "title": "Bağlan" } },
+    "rights": "Tüm hakları saklıdır.",
+    "back_to_top": "Başa Dön"
+  }
+}
