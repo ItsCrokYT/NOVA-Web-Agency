@@ -5,7 +5,7 @@ import { AuthProvider } from './context/AuthContext';
 // Páginas Públicas
 import Home from './pages/public/Home';
 import StaffLogin from './pages/auth/StaffLogin';
-import VerifyEmail from './pages/auth/VerifyEmail'; // <--- Importamos nueva página
+import VerifyEmail from './pages/auth/VerifyEmail';
 
 // Páginas Privadas
 import ClientDashboard from './pages/client/ClientDashboard';
@@ -18,7 +18,11 @@ import ProtectedRoute from './components/auth/ProtectedRoute';
 function App() {
   return (
     <AuthProvider>
-      <Router>
+      {/* CAMBIO CRÍTICO AQUÍ: 
+         Agregamos 'basename' usando la variable de entorno que ya configuramos en vite.config.js.
+         Esto le dice al router que la aplicación vive en una subcarpeta.
+      */}
+      <Router basename={import.meta.env.BASE_URL}>
         <Routes>
           {/* === RUTAS PÚBLICAS === */}
           <Route path="/" element={<Home />} />
@@ -26,7 +30,7 @@ function App() {
           
           {/* === RUTAS PROTEGIDAS === */}
           
-          {/* Ruta de Verificación (Accesible para clientes no verificados) */}
+          {/* Ruta de Verificación */}
           <Route 
             path="/verify-email" 
             element={
@@ -36,7 +40,7 @@ function App() {
             } 
           />
           
-          {/* 1. Cliente (Requiere verificación por la lógica en ProtectedRoute) */}
+          {/* 1. Cliente */}
           <Route 
             path="/client" 
             element={
