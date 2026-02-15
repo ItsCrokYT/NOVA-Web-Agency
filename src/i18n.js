@@ -6,8 +6,8 @@ i18n
   .use(Backend)
   .use(initReactI18next)
   .init({
-    fallbackLng: 'en', 
-    lng: 'en', // <--- CAMBIO IMPORTANTE: Inglés por defecto
+    fallbackLng: 'en',
+    lng: 'en', // Idioma por defecto
     debug: true,
 
     interpolation: {
@@ -15,7 +15,10 @@ i18n
     },
     
     backend: {
-      loadPath: '/locales/{{lng}}.json',
+      // CORRECCIÓN CRÍTICA:
+      // Usamos import.meta.env.BASE_URL para que sepa si está en "/" (Local) 
+      // o en "/NOVA-Web-Agency/" (GitHub Pages)
+      loadPath: `${import.meta.env.BASE_URL}locales/{{lng}}.json`,
     }
   });
 
