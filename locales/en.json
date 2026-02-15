@@ -1,0 +1,145 @@
+{
+  "nav": {
+    "home": "Home",
+    "portfolio": "Work",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "client_area": "Client Login",
+    "dashboard": "Dashboard",
+    "go_to_dashboard": "Go to Dashboard"
+  },
+  "auth": {
+    "welcome_title": "Welcome",
+    "welcome_subtitle": "Access your NOVA client dashboard.",
+    "create_account_title": "Create Account",
+    "create_account_subtitle": "Join NOVA to start your project.",
+    "method_email": "Email",
+    "method_phone": "Phone",
+    "email_label": "Email Address",
+    "password_label": "Password",
+    "phone_label": "Mobile Number",
+    "phone_placeholder": "+1 234...",
+    "phone_help": "Include country code (e.g. +1, +44).",
+    "send_code": "Send Code",
+    "sending": "Sending...",
+    "verify": "Verify",
+    "verifying": "Verifying...",
+    "code_sent_to": "Code sent to",
+    "change_number": "Change number",
+    "code_label": "6-digit Code",
+    "login_btn": "Sign In",
+    "signup_btn": "Create Account",
+    "processing": "Processing...",
+    "or_continue": "Or continue with",
+    "already_account": "Already have an account?",
+    "no_account": "Don't have an account yet?",
+    "login_action": "Sign In",
+    "register_free": "Sign Up Free",
+    "errors": {
+      "google": "Error connecting with Google.",
+      "generic": "An error occurred.",
+      "credentials": "Incorrect email or password.",
+      "email_exists": "This email is already registered.",
+      "weak_password": "Password must be at least 6 characters.",
+      "sms": "Error sending SMS. Check the number.",
+      "invalid_code": "Invalid code."
+    }
+  },
+  "client_dashboard": {
+    "hello": "Hello",
+    "welcome_msg": "Welcome to your NOVA workspace.",
+    "logout": "Log Out",
+    "my_projects": "My Projects",
+    "no_projects": "You have no active orders currently.",
+    "generate_test": "Generate Test Order",
+    "test_note": "(This will automatically create the 'orders' collection in your DB)",
+    "support_title": "Direct Support",
+    "start_chat": "Start a conversation with your developer.",
+    "type_message": "Type a message...",
+    "project_default_title": "My First Web Project",
+    "start_date": "Start",
+    "deadline": "Deadline",
+    "status": {
+      "pending": "Pending",
+      "in_progress": "In Progress",
+      "review": "Review",
+      "completed": "Completed"
+    }
+  },
+  "hero": {
+    "badge": "Web Development Agency",
+    "title_line1": "Crafting",
+    "title_line2": "Digital Universes",
+    "subtitle": "We transform complex ideas into high-impact immersive web experiences. Specialists in React, 3D, and modern UI.",
+    "cta_primary": "Start Project",
+    "cta_secondary": "View Portfolio"
+  },
+  "about": {
+    "badge": "Technology Stack",
+    "title_line1": "High Precision",
+    "title_highlight": "Digital Engineering",
+    "description": "We don't use cookie-cutter templates. We craft bespoke web architecture using the most powerful stack on the market to ensure speed, security, and scalability.",
+    "tech": {
+      "react": { "title": "React & Next.js", "desc": "Modern reactive interfaces, SPAs, and high-performance applications." },
+      "three": { "title": "Three.js & WebGL", "desc": "Immersive 3D experiences that set your brand apart from the noise." },
+      "tailwind": { "title": "Tailwind CSS", "desc": "Atomic design systems, fully responsive and aesthetically perfect." },
+      "node": { "title": "Node.js & Cloud", "desc": "Robust backend infrastructure capable of scaling globally." }
+    },
+    "services": {
+      "title": "Comprehensive Web Solutions",
+      "desc": "From high-impact landing pages to complex web applications (SaaS). We cover the full digital spectrum.",
+      "list": {
+        "1": "Corporate Sites",
+        "2": "Advanced E-Commerce",
+        "3": "Landing Pages",
+        "4": "Web Apps (SaaS)"
+      }
+    }
+  },
+  "portfolio": {
+    "badge": "Selected Works",
+    "title": "Featured Projects",
+    "subtitle": "A collection of high-performance web applications crafted with precision and modern technologies.",
+    "projects": {
+      "ecommerce": { "title": "Neon E-Commerce", "desc": "A full-stack shopping platform with real-time inventory and Stripe integration." },
+      "dashboard": { "title": "FinTech Dashboard", "desc": "Analytics dashboard for banking data visualization using D3.js and Firebase." },
+      "realestate": { "title": "Luxury Estates", "desc": "Immersive property viewing experience with 3D tours and map integration." },
+      "saas": { "title": "TaskMaster SaaS", "desc": "Productivity tool for remote teams featuring live collaboration and Kanban boards." },
+      "healthcare": { "title": "MediCare Portal", "desc": "Secure patient portal compliant with healthcare standards and telemedicine features." },
+      "nft": { "title": "Cosmos NFT Market", "desc": "Web3 marketplace for digital art trading on the Ethereum network." }
+    }
+  },
+  "pricing": {
+    "badge": "Services",
+    "title_line1": "Tailored Solutions.",
+    "title_highlight": "Real Results.",
+    "subtitle": "Select the type of project you need. We will evaluate your exact requirements to provide a precise and custom quote.",
+    "investment": "Investment",
+    "custom_quote": "Custom Quote",
+    "selected_badge": "Selected",
+    "select_plan": "Select",
+    "cta": "Request a Quote",
+    "plans": {
+      "basic": { "name": "Landing Page", "desc": "Perfect to validate ideas, capture leads, or promote a single product.", "features": { "1": "Custom UX/UI Design", "2": "High Conversion (Sales Optimized)", "3": "Email/CRM Integration", "4": "100% Responsive Design", "5": "Blazing fast loading speeds" } },
+      "pro": { "name": "Corporate Site", "desc": "The ultimate digital presence for companies looking for authority and trust.", "features": { "1": "Multiple pages (Home, About, Services...)", "2": "Advanced animations & Micro-interactions", "3": "Self-manageable Admin Panel (CMS)", "4": "On-Page SEO Optimization", "5": "Technical support & initial maintenance" } },
+      "ecommerce": { "name": "E-Commerce / App", "desc": "Complex systems, custom online stores, or scalable SaaS platforms.", "features": { "1": "Custom Full-Stack Development", "2": "Payment Gateways (Stripe/PayPal)", "3": "Databases & Dashboards", "4": "High-security architecture", "5": "Interactive 3D Experiences (Three.js)" } }
+    }
+  },
+  "contact": {
+    "badge": "Let's Talk",
+    "title_line1": "Start your",
+    "title_highlight": "Next Project.",
+    "subtitle": "Fill out the form or email us directly. We will review your request and get back to you within 24 hours.",
+    "location_label": "LOCATION",
+    "form_title": "Tell us about your idea",
+    "form": { "name": "Full Name", "email": "Email Address", "service": "Service of Interest", "service_placeholder": "Select an option...", "message": "Project Details", "message_placeholder": "What do you have in mind? Estimated budget, timeline, references...", "send": "Send Message", "sending": "Sending...", "sent": "Message Sent!" }
+  },
+  "footer": {
+    "newsletter": { "title": "Stay ahead of the curve.", "desc": "Join our newsletter for exclusive insights on web development, 3D design, and technology.", "placeholder": "you@email.com", "button": "Subscribe" },
+    "brand_desc": "Premium web development agency specializing in high-performance immersive digital experiences.",
+    "links": { "company": { "title": "Company" }, "legal": { "title": "Legal", "privacy": "Privacy Policy", "terms": "Terms of Service", "cookies": "Cookie Policy" }, "socials": { "title": "Connect" } },
+    "rights": "All rights reserved.",
+    "back_to_top": "Back to Top"
+  }
+}
