@@ -9,7 +9,7 @@ const projects = [
     key: "ecommerce", 
     tags: ["React", "Stripe", "Node.js"],
     image: "https://images.unsplash.com/photo-1557821552-17105176677c?q=80&w=1000&auto=format&fit=crop", 
-    link: "#",
+    link: "https://brewmotioncofee.netlify.app/",
     repo: "#"
   },
   {
@@ -17,7 +17,7 @@ const projects = [
     key: "dashboard",
     tags: ["React", "Firebase", "Tailwind"],
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop",
-    link: "#",
+    link: "https://itscrokyt.github.io/JUSTICE/",
     repo: "#"
   },
   {
@@ -25,7 +25,7 @@ const projects = [
     key: "realestate",
     tags: ["Next.js", "MongoDB", "Framer"],
     image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=1000&auto=format&fit=crop",
-    link: "#",
+    link: "https://zenith-studio-web.netlify.app/",
     repo: "#"
   },
   {

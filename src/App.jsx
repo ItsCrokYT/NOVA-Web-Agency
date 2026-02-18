@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'; // <--- 1. Cambiamos el import
 import { AuthProvider } from './context/AuthContext';
 
 // Páginas Públicas
@@ -18,11 +18,8 @@ import ProtectedRoute from './components/auth/ProtectedRoute';
 function App() {
   return (
     <AuthProvider>
-      {/* CAMBIO CRÍTICO AQUÍ: 
-         Agregamos 'basename' usando la variable de entorno que ya configuramos en vite.config.js.
-         Esto le dice al router que la aplicación vive en una subcarpeta.
-      */}
-      <Router basename={import.meta.env.BASE_URL}>
+      {/* 2. Usamos Router (que ahora es HashRouter) y quitamos 'basename' */}
+      <Router>
         <Routes>
           {/* === RUTAS PÚBLICAS === */}
           <Route path="/" element={<Home />} />
